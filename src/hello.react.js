@@ -1,4 +1,5 @@
-var MyComponent = React.createClass({
+var React = require('react');
+module.exports = React.createClass({
     render: function(){
         return (
             <h1>Hello, {this.props.name}!</h1>
@@ -6,8 +7,3 @@ var MyComponent = React.createClass({
     }
 });
 
-
-React.render(
-    <MyComponent name='Handsome' />,
-    document.getElementById('myDiv')
-);

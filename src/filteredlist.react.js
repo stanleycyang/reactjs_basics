@@ -1,5 +1,5 @@
-
-var FilteredList = React.createClass({
+var React = require('react');
+module.exports = React.createClass({
     filteredList: function(event){
         var updatedList = this.state.initialItems;
         updatedList = updatedList.filter(function(item){
@@ -49,4 +49,3 @@ var List = React.createClass({
     }
 });
 
-React.render(<FilteredList />, document.getElementById('mount-list'));

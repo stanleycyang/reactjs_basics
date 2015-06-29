@@ -1,0 +1,21 @@
+{
+  "name": "basic_react",
+  "version": "1.0.0",
+  "description": "Basic React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stanley Yang",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "react": "^0.13.3"
+  }
+}

@@ -1,4 +1,6 @@
-var Counter = React.createClass({
+var React = require('react');
+
+module.exports = React.createClass({
     incrementCount: function(){
         this.setState({
             count: this.state.count + 1
@@ -21,4 +23,3 @@ var Counter = React.createClass({
     }
 });
 
-React.render(<Counter />, document.getElementById('mount-counter'));
